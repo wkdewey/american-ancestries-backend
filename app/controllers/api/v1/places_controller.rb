@@ -1,9 +1,10 @@
-class Api::V1::MonasteriesController < ApplicationController
+class Api::V1::PlacesController < ApplicationController
   def index
-
+    places = Place.all
+    render json: places
   end
 
   def show
-    
+
   end
 end
