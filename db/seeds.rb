@@ -23,7 +23,7 @@ places = Place.create([
   { name: 'Madison', population: 252086, german_pop: 80774, mexican_pop: 10901, af_am_pop: 23843 },
 ])
 
-ancestry_groups = AncestryGroup.create(
+ancestry_groups = AncestryGroup.create([
   { name: "German-American", national_pop: 40363511 },
   { name: "African-American", national_pop: 46713850 },
   { name: "Mexican-American", national_pop: 37186361 },
@@ -38,6 +38,6 @@ ancestry_groups = AncestryGroup.create(
   { name: "Dutch-American", national_pop: 3577936 },
   { name: "Swedish-American", national_pop: 3536320 },
   { name: "Chinese-American", national_pop: 5172492 },
-  { name: "Indian-American", national_pop: 4605550 }
+  { name: "Indian-American", national_pop: 4605550 },
   { name: "Scotch-Irish-American", national_pop: 2924654 }
-)
+])
