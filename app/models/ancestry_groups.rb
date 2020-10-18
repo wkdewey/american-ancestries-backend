@@ -1,0 +1,3 @@
+class AncestryGroup < ApplicationRecord
+  
+end
