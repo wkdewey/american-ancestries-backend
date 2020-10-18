@@ -22,3 +22,22 @@ places = Place.create([
   { name: 'Bloomington', population: 84058, german_pop: 15800, mexican_pop: 1826, af_am_pop: 4121 },
   { name: 'Madison', population: 252086, german_pop: 80774, mexican_pop: 10901, af_am_pop: 23843 },
 ])
+
+ancestry_groups = AncestryGroup.create([
+  { name: "German-American", national_pop: 40363511 },
+  { name: "African-American", national_pop: 46713850 },
+  { name: "Mexican-American", national_pop: 37186361 },
+  { name: "Irish-American", national_pop: 30352567 },
+  { name: "English-American", national_pop: 23593434 },
+  { name: "Italian-American", national_pop: 16146739 },
+  { name: "French-American", national_pop: 7116099 },
+  { name: "Polish-American", national_pop: 8969530 },
+  { name: "Scottish-American", national_pop: 5131171 },
+  { name: "Puerto Rican-American", national_pop: 5828706 },
+  { name: "Norwegian-American", national_pop: 4295923 },
+  { name: "Dutch-American", national_pop: 3577936 },
+  { name: "Swedish-American", national_pop: 3536320 },
+  { name: "Chinese-American", national_pop: 5172492 },
+  { name: "Indian-American", national_pop: 4605550 },
+  { name: "Scotch-Irish-American", national_pop: 2924654 }
+])
