@@ -1,6 +1,6 @@
 class AncestryGroupSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :national_pop
+  attributes :name, :national_pop, :place_ancestry_groups
 
   @@us_pop = 328239523
 
