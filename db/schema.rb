@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_19_165318) do
+ActiveRecord::Schema.define(version: 2020_10_19_183542) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,9 +31,6 @@ ActiveRecord::Schema.define(version: 2020_10_19_165318) do
   create_table "places", force: :cascade do |t|
     t.string "name"
     t.integer "population"
-    t.integer "german_pop"
-    t.integer "af_am_pop"
-    t.integer "mexican_pop"
   end
 
   add_foreign_key "place_ancestry_groups", "ancestry_groups"
