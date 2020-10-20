@@ -2,6 +2,8 @@ class AncestryGroup < ApplicationRecord
   has_many :place_ancestry_groups
   has_many :places, through: :place_ancestry_groups
 
+  accepts_nested_attributes_for :place_ancestry_groups
+
   @@us_pop = 328239523
 
   def national_percent
