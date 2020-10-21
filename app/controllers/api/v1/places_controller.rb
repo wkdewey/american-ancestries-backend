@@ -21,7 +21,7 @@ class Api::V1::PlacesController < ApplicationController
   private
 
   def place_params
-    params.require(:place).permit(:name, :population, :german_pop, :af_am_pop, :mexican_pop)
+    params.require(:place).permit(:name, :population, place_ancestry_groups_attributes: [:ancestry_group_id, :population])
   end
 
 end
