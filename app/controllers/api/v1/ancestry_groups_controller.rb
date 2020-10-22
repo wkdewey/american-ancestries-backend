@@ -9,4 +9,5 @@ class Api::V1::AncestryGroupsController < ApplicationController
     render json: AncestryGroupSerializer.new(ancestry_groups)
   end
 
+  
 end

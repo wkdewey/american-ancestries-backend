@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :places, only: [:index, :show, :create]
       resources :ancestry_groups, only: [:index, :show]
+      resources :place_ancestry_groups, only: [:index, :show]
     end
   end
 end
