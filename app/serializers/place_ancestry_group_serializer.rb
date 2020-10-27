@@ -8,7 +8,8 @@ class PlaceAncestryGroupSerializer
   end
 
   attributes :relative_to_national do |item|
-    (item.percent/item.ancestry_group.national_percent).round(2)
+    item.relative_to_national
+    # (item.percent/item.ancestry_group.national_percent).round(2)
   end
 
   attributes :place_name do |item|
